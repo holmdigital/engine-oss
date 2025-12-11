@@ -1,6 +1,6 @@
 {
     "name": "@holmdigital/engine",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "publishConfig": {
         "access": "public",
         "registry": "https://npm.pkg.github.com"
@@ -10,7 +10,7 @@
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
     "bin": {
-        "hd-a11y-scan": "./dist/cli/index.js"
+        "hd-a11y-scan": "dist/cli/index.js"
     },
     "exports": {
         ".": {
