@@ -16,6 +16,10 @@ This monorepo contains the open-source core of our accessibility technology, all
 You can install the engine directly from the GitHub Package Registry or npm (once publicly released).
 
 ```bash
+# First, configure npm to use GitHub Package Registry:
+npm config set @holmdigital:registry https://npm.pkg.github.com
+
+# Then install:
 npm install @holmdigital/engine
 ```
 
